@@ -1,0 +1,19 @@
+{
+  "name": "atom-elixir-playground",
+  "main": "./lib/atom-elixir-playground",
+  "version": "0.0.0",
+  "description": "A package to share Elixir code on Elixir Playground.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-elixir-playground:upload_selection",
+    "atom-workspace": "atom-elixir-playground:upload_file"
+  },
+  "repository": "https://github.com/gmcabrita/atom-elixir-playground",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

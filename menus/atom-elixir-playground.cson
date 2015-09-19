@@ -1,0 +1,26 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Upload selection to Elixir Playground',
+      'command': 'atom-elixir-playground:upload_selection'
+    },
+    {
+      'label': 'Upload current file to Elixir Playground',
+      'command': 'atom-elixir-playground:upload_file'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-elixir-playground'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'atom-elixir-playground:toggle'
+        }
+      ]
+    ]
+  }
+]
